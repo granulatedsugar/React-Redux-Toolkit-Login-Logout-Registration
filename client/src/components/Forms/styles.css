@@ -1,0 +1,44 @@
+.form-control {
+  border: 0 !important;
+  border-bottom: #000 1px solid !important;
+  border-radius: 0 !important;
+  font-size: small;
+}
+
+.register-form {
+  max-width: 800px;
+}
+
+.terms-check {
+  font-size: small;
+}
+
+.btn-register {
+  width: 50%;
+  margin: auto;
+  padding: 15px 0 15px 0;
+  border: 0;
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.815);
+  background-color: #000;
+}
+
+.btn-register:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-login {
+  width: 50%;
+  margin: auto;
+  padding: 15px 0px 15px 0px;
+  border: 0;
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.815);
+  background-color: #000;
+}
+
+.btn-login:hover {
+  color: #fff;
+  background-color: #000;
+}

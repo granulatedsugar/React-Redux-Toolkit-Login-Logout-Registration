@@ -1,0 +1,46 @@
+.hero {
+  max-height: 50vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero {
+    height: 100%;
+  }
+
+  .hero-text {
+    display: none;
+  }
+
+  .hero-img {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.section-title {
+  font-size: x-large;
+}
+
+.slider-button {
+  text-decoration: none;
+  color: #000;
+  background-color: transparent;
+  border: #000 1px solid;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.slider-button:hover {
+  color: #fff !important;
+  background-color: transparent !important;
+  border: rgb(81, 128, 152) 1px solid !important;
+  border-radius: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
